@@ -94,6 +94,7 @@
   </div>
 </template>
 <script>
+import ie11fix from '../utils/Ie11Fix'
 import en from '../locale/translations/en'
 import DateInput from './DateInput.vue'
 import PickerDay from './PickerDay.vue'
